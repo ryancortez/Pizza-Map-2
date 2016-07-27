@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		94ECA15C1D49236D00D24521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECA15B1D49236D00D24521 /* AppDelegate.swift */; };
-		94ECA15E1D49236D00D24521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECA15D1D49236D00D24521 /* ViewController.swift */; };
+		94ECA15E1D49236D00D24521 /* PizzaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECA15D1D49236D00D24521 /* PizzaMapViewController.swift */; };
 		94ECA1611D49236D00D24521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ECA15F1D49236D00D24521 /* Main.storyboard */; };
 		94ECA1631D49236D00D24521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ECA1621D49236D00D24521 /* Assets.xcassets */; };
 		94ECA1661D49236D00D24521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ECA1641D49236D00D24521 /* LaunchScreen.storyboard */; };
+		94ECA16E1D493B0D00D24521 /* PizzaShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECA16D1D493B0D00D24521 /* PizzaShop.swift */; };
+		94ECA1721D494E5F00D24521 /* PizzaAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECA1711D494E5F00D24521 /* PizzaAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94ECA1581D49236D00D24521 /* PIzza Map'.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PIzza Map'.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ECA15B1D49236D00D24521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94ECA15D1D49236D00D24521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94ECA15D1D49236D00D24521 /* PizzaMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaMapViewController.swift; sourceTree = "<group>"; };
 		94ECA1601D49236D00D24521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94ECA1621D49236D00D24521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94ECA1651D49236D00D24521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94ECA1671D49236D00D24521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94ECA16D1D493B0D00D24521 /* PizzaShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaShop.swift; sourceTree = "<group>"; };
+		94ECA1711D494E5F00D24521 /* PizzaAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				94ECA15B1D49236D00D24521 /* AppDelegate.swift */,
-				94ECA15D1D49236D00D24521 /* ViewController.swift */,
+				94ECA15D1D49236D00D24521 /* PizzaMapViewController.swift */,
+				94ECA16D1D493B0D00D24521 /* PizzaShop.swift */,
+				94ECA1711D494E5F00D24521 /* PizzaAnnotationView.swift */,
 				94ECA15F1D49236D00D24521 /* Main.storyboard */,
 				94ECA1621D49236D00D24521 /* Assets.xcassets */,
 				94ECA1641D49236D00D24521 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94ECA15E1D49236D00D24521 /* ViewController.swift in Sources */,
+				94ECA1721D494E5F00D24521 /* PizzaAnnotationView.swift in Sources */,
+				94ECA15E1D49236D00D24521 /* PizzaMapViewController.swift in Sources */,
+				94ECA16E1D493B0D00D24521 /* PizzaShop.swift in Sources */,
 				94ECA15C1D49236D00D24521 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
